@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+button {
+  background-color: #fff; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+ul, li {
+  list-style: none;
+  padding: 0; }
+
+.brandtitle {
+  width: 48px;
+  margin: 0 8px; }
+
+.firsttitle {
+  width: 19px;
+  margin: 6px; }
+
+.thirdtitle {
+  width: 13px;
+  margin-right: 6px; }
+
+.top-nav {
+  width: 100%;
+  border-bottom: 1px solid #438eb9;
+  background-color: #fff;
+  text-align: center; }
+  .top-nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px; }
+    .top-nav ul li {
+      padding: 10px 20px; }
+      .top-nav ul li a {
+        font-size: 18px;
+        color: #000; }
+    .top-nav ul .active {
+      font-weight: bold;
+      border-bottom: 3px solid #438eb9; }
+
+.bottomtip {
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #438eb9;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  text-align: center; }
+  .bottomtip p {
+    padding: 5px 0; }
+
+.login-layout {
+  background-color: transparent !important;
+  background-image: url(images/bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat; }
+  .login-layout .login-index {
+    margin: 0 auto;
+    width: 360px !important; }
+    .login-layout .login-index .login-box {
+      width: 360px !important;
+      margin: 200px 0 236px 0;
+      text-align: center;
+      background-color: #D8E9F5; }
+
+/*# sourceMappingURL=common.css.map */
